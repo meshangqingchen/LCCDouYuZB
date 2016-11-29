@@ -17,6 +17,7 @@
 		744DA8FE1DEC067600EFE6AD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA8FD1DEC067600EFE6AD /* Common.swift */; };
 		744DA9021DEC16BF00EFE6AD /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA9011DEC16BF00EFE6AD /* PageContentView.swift */; };
 		744DA9041DEC1B9200EFE6AD /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA9031DEC1B9200EFE6AD /* UIColor+Extension.swift */; };
+		744DA9061DED8F8500EFE6AD /* LCRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA9051DED8F8500EFE6AD /* LCRecommendViewController.swift */; };
 		74686E961DEBDF3000070CC7 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74686E951DEBDF3000070CC7 /* UIBarButtonItem-Extension.swift */; };
 		74B0FBC11DDAD8BD00D66599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B0FBC01DDAD8BD00D66599 /* AppDelegate.swift */; };
 		74B0FBC61DDAD8BD00D66599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B0FBC41DDAD8BD00D66599 /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		744DA8FD1DEC067600EFE6AD /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		744DA9011DEC16BF00EFE6AD /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 		744DA9031DEC1B9200EFE6AD /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		744DA9051DED8F8500EFE6AD /* LCRecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCRecommendViewController.swift; sourceTree = "<group>"; };
 		74686E951DEBDF3000070CC7 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		74B0FBBD1DDAD8BD00D66599 /* DDYYZZBB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDYYZZBB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B0FBC01DDAD8BD00D66599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				744BE4291DE1B73400FA406C /* HomeViewController.swift */,
+				744DA9051DED8F8500EFE6AD /* LCRecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 			files = (
 				74B0FBC11DDAD8BD00D66599 /* AppDelegate.swift in Sources */,
 				744BE4191DE1B3D700FA406C /* MainViewController.swift in Sources */,
+				744DA9061DED8F8500EFE6AD /* LCRecommendViewController.swift in Sources */,
 				744DA8FA1DEBF3C900EFE6AD /* PageTitleView.swift in Sources */,
 				744DA9021DEC16BF00EFE6AD /* PageContentView.swift in Sources */,
 				74686E961DEBDF3000070CC7 /* UIBarButtonItem-Extension.swift in Sources */,
